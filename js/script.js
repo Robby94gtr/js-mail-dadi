@@ -10,8 +10,27 @@ Si può fare? Certo che si basta ragionare un po’. Nota: Non è necessario pro
 const guestEmails=["johnny@gmail.com", "david.bowie@gmail.com", "zorro.dondiegodelavega@virgilio.it", "freddiemercury@icloud.com"];
 let userEmail=prompt("inserisci qui la tua email");
 
+// creo variabile di checkEmail impostata su valore false
 
+let checkEmail= false; 
 
+// ciclo array delle email
+// eseguo controllo su email inserita dall'utente e se coincidide con email ciclata imposto la variabile checkEmail a true
+
+for(i=0; i<guestEmails.length; i++){
+    if(guestEmails[i] === userEmail){
+        checkEmail=true;
+    }
+}
+
+// creo messaggio di console.log all'interno di if o else a seconda se la mail inserita sia valida o meno
+
+if(checkEmail===true){
+    console.log("Valid Email");
+}
+else{
+    console.log("Invalid Email");
+}
 
 
 
