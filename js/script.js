@@ -48,6 +48,15 @@ let pcNumber=Math.floor(Math.random() * 6) + 1;
 
 console.log(pcNumber + " PC")
 
+// Creo if con console.log inerente alla vittoria se vince l'utente o di sconfitta se vince il PC
+
+if(userNumber>pcNumber){
+    console.log("Hai Vinto :)")
+}
+else{
+    console.log("Hai Perso :(")
+}
+
 
 
 
