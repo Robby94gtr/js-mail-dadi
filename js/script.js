@@ -7,7 +7,7 @@ Si può fare? Certo che si basta ragionare un po’. Nota: Non è necessario pro
 // Creo array "guestEmails" con tutte le email degli invitati
 // Creo prompt per chiedere all'utente del sito di inserire la mail
 
-const guestEmails=["johnny@gmail.com", "david.bowie@gmail.com", "zorro.dondiegodelavega@virgilio.it", "freddiemercury@icloud.com"];
+/* const guestEmails=["johnny@gmail.com", "david.bowie@gmail.com", "zorro.dondiegodelavega@virgilio.it", "freddiemercury@icloud.com"];
 let userEmail=prompt("inserisci qui la tua email");
 
 // creo variabile di checkEmail impostata su valore false
@@ -30,7 +30,7 @@ if(checkEmail===true){
 }
 else{
     console.log("Invalid Email");
-}
+} */
 
 /* Gioco dei dadi
 Generare un numero random da 1 a 6, sia per il giocatore sia per il computer. Stabilire il vincitore, in base a chi fa il punteggio più alto.
@@ -40,8 +40,13 @@ Prima di partire a scrivere codice poniamoci qualche domanda: Che ci sia un arra
 
 let userNumber=Math.floor(Math.random() * 6) + 1;
 
-console.log(userNumber + " Utente") 
+console.log(userNumber + " Utente")
 
+// Faccio la stessa cosa per il pc
+
+let pcNumber=Math.floor(Math.random() * 6) + 1;
+
+console.log(pcNumber + " PC")
 
 
 
