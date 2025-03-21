@@ -7,6 +7,11 @@ Si può fare? Certo che si basta ragionare un po’. Nota: Non è necessario pro
 // Creo array "guestEmails" con tutte le email degli invitati
 // Creo prompt per chiedere all'utente del sito di inserire la mail
 
+const guestEmails=["johnny@gmail.com", "david.bowie@gmail.com", "zorro.dondiegodelavega@virgilio.it", "freddiemercury@icloud.com"];
+let userEmail=prompt("inserisci qui la tua email");
+
+
+
 
 
 
